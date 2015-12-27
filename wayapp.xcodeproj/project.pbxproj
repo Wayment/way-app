@@ -12,6 +12,12 @@
 		BD86E8AF1C2FC52D00883647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD86E8AE1C2FC52D00883647 /* Assets.xcassets */; };
 		BD86E8BD1C2FC52D00883647 /* wayappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86E8BC1C2FC52D00883647 /* wayappUITests.m */; };
 		BD86E8C91C2FC69D00883647 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86E8C81C2FC69D00883647 /* CoreData.framework */; };
+		BDC4C90B1C2FCD9800166941 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C90A1C2FCD9800166941 /* RootViewController.m */; };
+		BDC4C9141C2FCF6C00166941 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C9131C2FCF6C00166941 /* FirstViewController.m */; };
+		BDC4C9171C2FCF7B00166941 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C9161C2FCF7B00166941 /* SecondViewController.m */; };
+		BDC4C91A1C2FCF8900166941 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C9191C2FCF8900166941 /* ThirdViewController.m */; };
+		BDC4C91D1C2FCF9900166941 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C91C1C2FCF9900166941 /* FourthViewController.m */; };
+		BDC4C92E1C2FD97300166941 /* FirstNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C92D1C2FD97300166941 /* FirstNextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,18 @@
 		BD86E8BC1C2FC52D00883647 /* wayappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wayappUITests.m; sourceTree = "<group>"; };
 		BD86E8BE1C2FC52D00883647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD86E8C81C2FC69D00883647 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BDC4C9091C2FCD9800166941 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Root/RootViewController.h; sourceTree = "<group>"; };
+		BDC4C90A1C2FCD9800166941 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Root/RootViewController.m; sourceTree = "<group>"; };
+		BDC4C9121C2FCF6C00166941 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BDC4C9131C2FCF6C00166941 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BDC4C9151C2FCF7B00166941 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BDC4C9161C2FCF7B00166941 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BDC4C9181C2FCF8900166941 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		BDC4C9191C2FCF8900166941 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		BDC4C91B1C2FCF9900166941 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		BDC4C91C1C2FCF9900166941 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		BDC4C92C1C2FD97300166941 /* FirstNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstNextViewController.h; sourceTree = "<group>"; };
+		BDC4C92D1C2FD97300166941 /* FirstNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstNextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +135,9 @@
 		BD86E8CA1C2FCBB100883647 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BDC4C92B1C2FD8E800166941 /* ViewController */,
+				BDC4C92A1C2FD8DF00166941 /* TableViewController */,
+				BDC4C9291C2FD8C900166941 /* NavgitionController */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -131,7 +152,8 @@
 		BD86E8CC1C2FCBB100883647 /* Src */ = {
 			isa = PBXGroup;
 			children = (
-				BD86E8CD1C2FCBB100883647 /* M1 */,
+				BDC4C9071C2FCD5600166941 /* Root */,
+				BDC4C90D1C2FCF3C00166941 /* M1 */,
 				BD86E8CE1C2FCBB100883647 /* M2 */,
 				BD86E8CF1C2FCBB100883647 /* M3 */,
 				BD86E8D01C2FCBB100883647 /* M4 */,
@@ -140,16 +162,12 @@
 			path = Src;
 			sourceTree = "<group>";
 		};
-		BD86E8CD1C2FCBB100883647 /* M1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = M1;
-			sourceTree = "<group>";
-		};
 		BD86E8CE1C2FCBB100883647 /* M2 */ = {
 			isa = PBXGroup;
 			children = (
+				BDC4C9211C2FD84600166941 /* Models */,
+				BDC4C9261C2FD87F00166941 /* Views */,
+				BDC4C90F1C2FCF4A00166941 /* Controllers */,
 			);
 			path = M2;
 			sourceTree = "<group>";
@@ -157,6 +175,9 @@
 		BD86E8CF1C2FCBB100883647 /* M3 */ = {
 			isa = PBXGroup;
 			children = (
+				BDC4C9221C2FD84E00166941 /* Models */,
+				BDC4C9271C2FD88500166941 /* Views */,
+				BDC4C9101C2FCF4F00166941 /* Controllers */,
 			);
 			path = M3;
 			sourceTree = "<group>";
@@ -164,6 +185,9 @@
 		BD86E8D01C2FCBB100883647 /* M4 */ = {
 			isa = PBXGroup;
 			children = (
+				BDC4C9231C2FD85300166941 /* Models */,
+				BDC4C9281C2FD88900166941 /* Views */,
+				BDC4C9111C2FCF5300166941 /* Controllers */,
 			);
 			path = M4;
 			sourceTree = "<group>";
@@ -182,6 +206,164 @@
 			children = (
 			);
 			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		BDC4C9071C2FCD5600166941 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4C91E1C2FD82900166941 /* Models */,
+				BDC4C9241C2FD87600166941 /* Views */,
+				BDC4C9081C2FCD6400166941 /* Controllers */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		BDC4C9081C2FCD6400166941 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4C9091C2FCD9800166941 /* RootViewController.h */,
+				BDC4C90A1C2FCD9800166941 /* RootViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDC4C90D1C2FCF3C00166941 /* M1 */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4C9201C2FD84100166941 /* Models */,
+				BDC4C9251C2FD87A00166941 /* Views */,
+				BDC4C90E1C2FCF4400166941 /* Controllers */,
+			);
+			path = M1;
+			sourceTree = "<group>";
+		};
+		BDC4C90E1C2FCF4400166941 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4C9121C2FCF6C00166941 /* FirstViewController.h */,
+				BDC4C9131C2FCF6C00166941 /* FirstViewController.m */,
+				BDC4C92C1C2FD97300166941 /* FirstNextViewController.h */,
+				BDC4C92D1C2FD97300166941 /* FirstNextViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDC4C90F1C2FCF4A00166941 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4C9151C2FCF7B00166941 /* SecondViewController.h */,
+				BDC4C9161C2FCF7B00166941 /* SecondViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDC4C9101C2FCF4F00166941 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4C9181C2FCF8900166941 /* ThirdViewController.h */,
+				BDC4C9191C2FCF8900166941 /* ThirdViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDC4C9111C2FCF5300166941 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4C91B1C2FCF9900166941 /* FourthViewController.h */,
+				BDC4C91C1C2FCF9900166941 /* FourthViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDC4C91E1C2FD82900166941 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BDC4C9201C2FD84100166941 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BDC4C9211C2FD84600166941 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BDC4C9221C2FD84E00166941 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BDC4C9231C2FD85300166941 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BDC4C9241C2FD87600166941 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BDC4C9251C2FD87A00166941 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BDC4C9261C2FD87F00166941 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BDC4C9271C2FD88500166941 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BDC4C9281C2FD88900166941 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BDC4C9291C2FD8C900166941 /* NavgitionController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NavgitionController;
+			sourceTree = "<group>";
+		};
+		BDC4C92A1C2FD8DF00166941 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TableViewController;
+			sourceTree = "<group>";
+		};
+		BDC4C92B1C2FD8E800166941 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +464,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC4C9171C2FCF7B00166941 /* SecondViewController.m in Sources */,
 				BD86E8A71C2FC52D00883647 /* AppDelegate.m in Sources */,
+				BDC4C92E1C2FD97300166941 /* FirstNextViewController.m in Sources */,
+				BDC4C91A1C2FCF8900166941 /* ThirdViewController.m in Sources */,
 				BD86E8A41C2FC52D00883647 /* main.m in Sources */,
+				BDC4C90B1C2FCD9800166941 /* RootViewController.m in Sources */,
+				BDC4C91D1C2FCF9900166941 /* FourthViewController.m in Sources */,
+				BDC4C9141C2FCF6C00166941 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +579,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wayapp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.villa.wayapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -403,7 +591,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wayapp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.villa.wayapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
