@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD86E8A41C2FC52D00883647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86E8A31C2FC52D00883647 /* main.m */; };
+		BD86E8A71C2FC52D00883647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86E8A61C2FC52D00883647 /* AppDelegate.m */; };
+		BD86E8AA1C2FC52D00883647 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86E8A91C2FC52D00883647 /* ViewController.m */; };
+		BD86E8AD1C2FC52D00883647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD86E8AB1C2FC52D00883647 /* Main.storyboard */; };
+		BD86E8AF1C2FC52D00883647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD86E8AE1C2FC52D00883647 /* Assets.xcassets */; };
+		BD86E8B21C2FC52D00883647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD86E8B01C2FC52D00883647 /* LaunchScreen.storyboard */; };
+		BD86E8BD1C2FC52D00883647 /* wayappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86E8BC1C2FC52D00883647 /* wayappUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD86E8B91C2FC52D00883647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD86E8971C2FC52D00883647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD86E89E1C2FC52D00883647;
+			remoteInfo = wayapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD86E89F1C2FC52D00883647 /* wayapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wayapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD86E8A31C2FC52D00883647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD86E8A51C2FC52D00883647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD86E8A61C2FC52D00883647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD86E8A81C2FC52D00883647 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD86E8A91C2FC52D00883647 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD86E8AC1C2FC52D00883647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD86E8AE1C2FC52D00883647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD86E8B11C2FC52D00883647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD86E8B31C2FC52D00883647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD86E8B81C2FC52D00883647 /* wayappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wayappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD86E8BC1C2FC52D00883647 /* wayappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wayappUITests.m; sourceTree = "<group>"; };
+		BD86E8BE1C2FC52D00883647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD86E89C1C2FC52D00883647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD86E8B51C2FC52D00883647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD86E8961C2FC52D00883647 = {
+			isa = PBXGroup;
+			children = (
+				BD86E8A11C2FC52D00883647 /* wayapp */,
+				BD86E8BB1C2FC52D00883647 /* wayappUITests */,
+				BD86E8A01C2FC52D00883647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD86E8A01C2FC52D00883647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD86E89F1C2FC52D00883647 /* wayapp.app */,
+				BD86E8B81C2FC52D00883647 /* wayappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD86E8A11C2FC52D00883647 /* wayapp */ = {
+			isa = PBXGroup;
+			children = (
+				BD86E8A51C2FC52D00883647 /* AppDelegate.h */,
+				BD86E8A61C2FC52D00883647 /* AppDelegate.m */,
+				BD86E8A81C2FC52D00883647 /* ViewController.h */,
+				BD86E8A91C2FC52D00883647 /* ViewController.m */,
+				BD86E8AB1C2FC52D00883647 /* Main.storyboard */,
+				BD86E8AE1C2FC52D00883647 /* Assets.xcassets */,
+				BD86E8B01C2FC52D00883647 /* LaunchScreen.storyboard */,
+				BD86E8B31C2FC52D00883647 /* Info.plist */,
+				BD86E8A21C2FC52D00883647 /* Supporting Files */,
+			);
+			path = wayapp;
+			sourceTree = "<group>";
+		};
+		BD86E8A21C2FC52D00883647 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD86E8A31C2FC52D00883647 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD86E8BB1C2FC52D00883647 /* wayappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD86E8BC1C2FC52D00883647 /* wayappUITests.m */,
+				BD86E8BE1C2FC52D00883647 /* Info.plist */,
+			);
+			path = wayappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD86E89E1C2FC52D00883647 /* wayapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD86E8C11C2FC52D00883647 /* Build configuration list for PBXNativeTarget "wayapp" */;
+			buildPhases = (
+				BD86E89B1C2FC52D00883647 /* Sources */,
+				BD86E89C1C2FC52D00883647 /* Frameworks */,
+				BD86E89D1C2FC52D00883647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wayapp;
+			productName = wayapp;
+			productReference = BD86E89F1C2FC52D00883647 /* wayapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD86E8B71C2FC52D00883647 /* wayappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD86E8C41C2FC52D00883647 /* Build configuration list for PBXNativeTarget "wayappUITests" */;
+			buildPhases = (
+				BD86E8B41C2FC52D00883647 /* Sources */,
+				BD86E8B51C2FC52D00883647 /* Frameworks */,
+				BD86E8B61C2FC52D00883647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD86E8BA1C2FC52D00883647 /* PBXTargetDependency */,
+			);
+			name = wayappUITests;
+			productName = wayappUITests;
+			productReference = BD86E8B81C2FC52D00883647 /* wayappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD86E8971C2FC52D00883647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wayment;
+				TargetAttributes = {
+					BD86E89E1C2FC52D00883647 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BD86E8B71C2FC52D00883647 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BD86E89E1C2FC52D00883647;
+					};
+				};
+			};
+			buildConfigurationList = BD86E89A1C2FC52D00883647 /* Build configuration list for PBXProject "wayapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD86E8961C2FC52D00883647;
+			productRefGroup = BD86E8A01C2FC52D00883647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD86E89E1C2FC52D00883647 /* wayapp */,
+				BD86E8B71C2FC52D00883647 /* wayappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD86E89D1C2FC52D00883647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD86E8B21C2FC52D00883647 /* LaunchScreen.storyboard in Resources */,
+				BD86E8AF1C2FC52D00883647 /* Assets.xcassets in Resources */,
+				BD86E8AD1C2FC52D00883647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD86E8B61C2FC52D00883647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD86E89B1C2FC52D00883647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD86E8AA1C2FC52D00883647 /* ViewController.m in Sources */,
+				BD86E8A71C2FC52D00883647 /* AppDelegate.m in Sources */,
+				BD86E8A41C2FC52D00883647 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD86E8B41C2FC52D00883647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD86E8BD1C2FC52D00883647 /* wayappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD86E8BA1C2FC52D00883647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD86E89E1C2FC52D00883647 /* wayapp */;
+			targetProxy = BD86E8B91C2FC52D00883647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD86E8AB1C2FC52D00883647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD86E8AC1C2FC52D00883647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD86E8B01C2FC52D00883647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD86E8B11C2FC52D00883647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD86E8BF1C2FC52D00883647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD86E8C01C2FC52D00883647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD86E8C21C2FC52D00883647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wayapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.villa.wayapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD86E8C31C2FC52D00883647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wayapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.villa.wayapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD86E8C51C2FC52D00883647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wayappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.villa.wayappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wayapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BD86E8C61C2FC52D00883647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wayappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.villa.wayappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wayapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD86E89A1C2FC52D00883647 /* Build configuration list for PBXProject "wayapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD86E8BF1C2FC52D00883647 /* Debug */,
+				BD86E8C01C2FC52D00883647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD86E8C11C2FC52D00883647 /* Build configuration list for PBXNativeTarget "wayapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD86E8C21C2FC52D00883647 /* Debug */,
+				BD86E8C31C2FC52D00883647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD86E8C41C2FC52D00883647 /* Build configuration list for PBXNativeTarget "wayappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD86E8C51C2FC52D00883647 /* Debug */,
+				BD86E8C61C2FC52D00883647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD86E8971C2FC52D00883647 /* Project object */;
+}
