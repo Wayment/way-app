@@ -11,6 +11,7 @@
 		BD86E8A71C2FC52D00883647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86E8A61C2FC52D00883647 /* AppDelegate.m */; };
 		BD86E8AF1C2FC52D00883647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD86E8AE1C2FC52D00883647 /* Assets.xcassets */; };
 		BD86E8BD1C2FC52D00883647 /* wayappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86E8BC1C2FC52D00883647 /* wayappUITests.m */; };
+		BD86E8C91C2FC69D00883647 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86E8C81C2FC69D00883647 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		BD86E8B81C2FC52D00883647 /* wayappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wayappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD86E8BC1C2FC52D00883647 /* wayappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wayappUITests.m; sourceTree = "<group>"; };
 		BD86E8BE1C2FC52D00883647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD86E8C81C2FC69D00883647 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD86E8C91C2FC69D00883647 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				BD86E8A11C2FC52D00883647 /* wayapp */,
+				BD86E8C71C2FC68800883647 /* Frameworks */,
 				BD86E8BB1C2FC52D00883647 /* wayappUITests */,
 				BD86E8A01C2FC52D00883647 /* Products */,
 			);
@@ -98,6 +102,14 @@
 				BD86E8BE1C2FC52D00883647 /* Info.plist */,
 			);
 			path = wayappUITests;
+			sourceTree = "<group>";
+		};
+		BD86E8C71C2FC68800883647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD86E8C81C2FC69D00883647 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wayapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.villa.wayapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wayapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.villa.wayapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
