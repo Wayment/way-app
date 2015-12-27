@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		BD86E89F1C2FC52D00883647 /* wayapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wayapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD86E8A31C2FC52D00883647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BD86E8A51C2FC52D00883647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BD86E8A61C2FC52D00883647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD86E8A51C2FC52D00883647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		BD86E8A61C2FC52D00883647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		BD86E8AE1C2FC52D00883647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD86E8B31C2FC52D00883647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD86E8B81C2FC52D00883647 /* wayappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wayappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +78,10 @@
 		BD86E8A11C2FC52D00883647 /* wayapp */ = {
 			isa = PBXGroup;
 			children = (
-				BD86E8A51C2FC52D00883647 /* AppDelegate.h */,
-				BD86E8A61C2FC52D00883647 /* AppDelegate.m */,
+				BD86E8CC1C2FCBB100883647 /* Src */,
+				BD86E8CA1C2FCBB100883647 /* Common */,
+				BD86E8CB1C2FCBB100883647 /* Global */,
+				BD86E8D21C2FCBB100883647 /* ThirdPart */,
 				BD86E8AE1C2FC52D00883647 /* Assets.xcassets */,
 				BD86E8A21C2FC52D00883647 /* Supporting Files */,
 			);
@@ -110,6 +112,76 @@
 				BD86E8C81C2FC69D00883647 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD86E8CA1C2FCBB100883647 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BD86E8CB1C2FCBB100883647 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		BD86E8CC1C2FCBB100883647 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				BD86E8CD1C2FCBB100883647 /* M1 */,
+				BD86E8CE1C2FCBB100883647 /* M2 */,
+				BD86E8CF1C2FCBB100883647 /* M3 */,
+				BD86E8D01C2FCBB100883647 /* M4 */,
+				BD86E8D11C2FCBB100883647 /* Main */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		BD86E8CD1C2FCBB100883647 /* M1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M1;
+			sourceTree = "<group>";
+		};
+		BD86E8CE1C2FCBB100883647 /* M2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M2;
+			sourceTree = "<group>";
+		};
+		BD86E8CF1C2FCBB100883647 /* M3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M3;
+			sourceTree = "<group>";
+		};
+		BD86E8D01C2FCBB100883647 /* M4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M4;
+			sourceTree = "<group>";
+		};
+		BD86E8D11C2FCBB100883647 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BD86E8A51C2FC52D00883647 /* AppDelegate.h */,
+				BD86E8A61C2FC52D00883647 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BD86E8D21C2FCBB100883647 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,6 +453,7 @@
 				BD86E8C31C2FC52D00883647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD86E8C41C2FC52D00883647 /* Build configuration list for PBXNativeTarget "wayappUITests" */ = {
 			isa = XCConfigurationList;
@@ -389,6 +462,7 @@
 				BD86E8C61C2FC52D00883647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
